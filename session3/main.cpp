@@ -3,6 +3,8 @@
 #include <string>
 #include "Pointers.h"
 #include "CarsManager.h"
+#include "FabricaCajas.h"
+#include "OperatorsPrecedence.h"
 
 using namespace std;
 
@@ -62,7 +64,9 @@ int main()
     MyFuction();
     MyFunctionWithParams(2, " My local string");*/
     //PointersExample();
-    ManageCars();
+    //ManageCars();
+    //OperatorsPrecedenceExample();
+    FabricarCajas();
     cout <<"Program finished"<< endl;
     return 0;
 }

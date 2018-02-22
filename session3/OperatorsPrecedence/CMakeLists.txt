@@ -1,4 +1,6 @@
-set(SRC_FILES
 
+set(SRC_FILES
+    OperatorsPrecedence.h
+    OperatorsPrecedence.cpp
     )
-add_library(${OpPrecLib} STATIC ${SRC_FILES})
+add_library(${OperPrecLib} STATIC ${SRC_FILES})
