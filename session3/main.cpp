@@ -2,6 +2,7 @@
 #include "Scope.h"
 #include <string>
 #include "Pointers.h"
+#include "CarsManager.h"
 
 using namespace std;
 
@@ -60,7 +61,8 @@ int main()
     cout << "There is  a global scoped variable s, whose value is: " << s << endl;
     MyFuction();
     MyFunctionWithParams(2, " My local string");*/
-    PointersExample();
+    //PointersExample();
+    ManageCars();
     cout <<"Program finished"<< endl;
     return 0;
 }
