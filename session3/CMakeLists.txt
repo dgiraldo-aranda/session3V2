@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 2.8)
 
 project(session3)
+set(CMAKE_CXX_STANDARD 11)
 add_executable(${PROJECT_NAME} "main.cpp")
 
 set(BASE_DIR ${CMAKE_CURRENT_LIST_DIR})
