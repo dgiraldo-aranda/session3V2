@@ -1,6 +1,6 @@
 #include "Caja.h"
 
-caja::caja(int largo, int ancho, int alto):
+/*caja::caja(int largo, int ancho, int alto):
     largo(largo), ancho(ancho), alto(alto)
 {
 
@@ -13,4 +13,4 @@ caja caja::operator+(caja c)
     r.ancho =  this->ancho + c.ancho;
     r.largo = this->largo + c.largo;
     return r;
-}
+}*/

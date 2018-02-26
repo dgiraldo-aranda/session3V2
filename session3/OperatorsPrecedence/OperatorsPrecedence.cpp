@@ -13,7 +13,7 @@ using namespace std;
  * https://www.tutorialspoint.com/cplusplus/cpp_operators.htm
  *
  * The operators precedence determine the order in which operations are performed
- * or the grouping of terms in an expression with miltiple operators. Operators with higuer precedence are
+ * or the grouping of terms in an expression with multiple operators. Operators with higuer precedence are
  * evaluated first, when there are operators are evaluated according to the asociativity.
  * See: https://www.tutorialspoint.com/cplusplus/cpp_operators.htm
  */

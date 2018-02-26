@@ -8,7 +8,7 @@
  * ^= &= |= *= <<= >>= [] () -> ->* new, new[] delete delete[]
  *The non overloadable operators are: :: .* . ?:
  */
-class caja
+/*class caja
 {
 private:
     int largo;
@@ -24,6 +24,6 @@ public:
      * In this example, we are overloading the operator + in order to define the ssume of boxes,
      * the result is another box with higuer dimensions.
      */
-    caja operator+(caja c);
-};
+    //caja operator+(caja c);
+//};*/
 

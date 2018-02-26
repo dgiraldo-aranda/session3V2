@@ -1,9 +1,10 @@
 #include <iostream>
-#include "Scope.h"
+//#include "Scope.h"
 #include <string>
 #include "Pointers.h"
 #include "CarsManager.h"
 #include "FabricaCajas.h"
+#include "Caja.h"
 #include "OperatorsPrecedence.h"
 #include "Container.h"
 
@@ -19,8 +20,8 @@ using namespace std;
 /**
  * @brief globalInt
  * This is a global parameter, its scope is global, it means that
- * I can use it any where in this file, inside and outside the functions
- * I define within this file.
+ * I can use it any where in this file or anywhere in files that include this file as library,
+ * inside and outside the functions I define.
  */
 int globalInt = 3; // Here the scope of globalInt
 std::string s ="My global String";
@@ -67,9 +68,8 @@ int main()
     //PointersExample();
     //ManageCars();
     //OperatorsPrecedenceExample();
-    //FabricarCajas();
-    //OperatorsPrecedenceExample();
-    ExampleContainer();
+    FabricarCaja();
+    //ExampleContainer();
     cout <<"Program finished"<< endl;
     return 0;
 }

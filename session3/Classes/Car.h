@@ -26,7 +26,7 @@ protected:
  * Class methods can be private, protected or public as well.
  */
 public:
-    Car() {}
+    Car(){}
     Car(std::string brand);
     void run(int disance);
 };
@@ -42,8 +42,9 @@ public:
 class PowerfullCar: Car
 {
 public:
-    PowerfullCar() = default;
+    PowerfullCar() {}
     PowerfullCar(std::string brand, int cap);
     void ChangeEngine(int cap);
     void run(int disance);
+
 };

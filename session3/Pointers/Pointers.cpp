@@ -17,7 +17,9 @@ void PointersExample()
     cout << "Address of variable a is: "<< p << endl;
     cout << "The value stored by p is: " << *p << endl;
 
-    // Pointers atirmetic.
+    // Pointers atirmetic. We can add and subtract pointers, by integers.
+    // If we add 1 to a pointer, the address stored by the pointer adds 1 size of the
+    // type od date it stores.
      char buf[5] = {'a', 'b', 'c', 'd','e'};
      char* pbuf = &buf[0];
      cout << "Value stored by pbuf: " << *pbuf << endl;
@@ -26,8 +28,8 @@ void PointersExample()
      pbuf  += 2 ;
      cout << " pbuf + 2: " << *pbuf << endl;
      cout << "pbuf[1]: " << pbuf[1] << endl;
-
-     pbuf - 1;
+     cout << "pbuf: " << *pbuf << endl;
+     pbuf -= 1;
      cout << "Decrementing pbuf: " << *pbuf << endl;
 
      // Dynamic memory

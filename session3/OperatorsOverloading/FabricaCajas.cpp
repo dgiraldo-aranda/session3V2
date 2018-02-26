@@ -1,10 +1,10 @@
-#include "FabricaCajas.h"
-#include "Caja.h"
 #include <iostream>
+#include "FabricaCajas.h"
 
 using namespace std;
 
-void FabricarCajas()
+
+/*void FabricarCaja()
 {
     // creamos dos cajas.
     caja c1(10,20,10);
@@ -12,4 +12,4 @@ void FabricarCajas()
 
     // Creamos una tercera caja que es la suma de las dos anteriores.
     caja c3 = c1 + c2;
-}
+}*/
